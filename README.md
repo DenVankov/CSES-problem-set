@@ -11,4 +11,4 @@ This is a ["cookbook"](Competitive%20programming.pdf) for programming well, fast
 #
 Time complexity for various input
 
-[timing](img/timing.png)
+![timing](img/timing.png)
