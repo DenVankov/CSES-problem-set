@@ -9,6 +9,8 @@ This is a ["cookbook"](Competitive%20programming.pdf) for programming well, fast
 #
 [Sorting and Searcing](https://github.com/DenVankov/CSES-problem-set/tree/master/Sorting%20and%20Searching) - This problems also include data structure, so before proceeding with the decision, read this chapter.
 #
+[Dynamic Programming](Dynamic%20Programming) - It starts with simple tasks, detailed in the book.
+#
 Time complexity for various input
 
 ![timing](img/timing.png)
