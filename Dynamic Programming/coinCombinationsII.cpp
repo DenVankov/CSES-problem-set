@@ -18,19 +18,6 @@ int main() {
         cin >> c[i];
     }
 
-//    vector<vector<int>> dp (x + 1, vector<int> (n + 1, 0));
-//
-//    dp[0][0] = 1;
-//
-//    for (int j = 0; j <= x; ++j) {
-//        for(int i = 1; i <= n; ++i) {
-//            if (j - c[i - 1] >= 0) {
-//                dp[j][i] += dp[j - c[i - 1]][i];
-//            }
-//            dp[j][i] += dp[j][i - 1];
-//        }
-//    }
-
     sort(c.begin(), c.end());
     vector<ll> dp(x + 1);
     dp[0] = 1;
@@ -43,15 +30,6 @@ int main() {
             }
         }
     }
-
-//    for (int k = 0; k < dp[0].size(); ++k) {
-//        for (int i = 0; i < dp.size(); ++i) {
-//            cout << dp[i][k] << " ";
-//        }
-//        cout << "\n";
-//    }
-
-    //cout << dp[x][n] << "\n";
     cout << dp[x] << "\n";
     return 0;
 }
